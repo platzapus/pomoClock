@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" >
+    <script src="jquery-3.2.1.js"></script>
+    <script src="pomoClock.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <audio id='beep' src='https://raw.githubusercontent.com/platzapus/pomo/master/263133__pan14__tone-beep.wav' type ="audio/mpeg"></audio>
+</head>
+<body>
+    <div class='container'>
+    <div id='titleBox'>
+        <img src='https://github.com/platzapus/pomo/blob/master/pomeranian-1541800_1920.jpg?raw=true' alt='hehe' />
+        <div id='title'>Pomeranadoro?</div>
+      <img src='https://github.com/platzapus/pomo/blob/master/pomflip.jpg?raw=true' alt='xd' />
+      </div>
+    <div id='subtitle'>Pomodoro Clock</div>
+      <div id='timerButtons'>
+        <div id='breakBox'>
+          Break<br>
+        <span id='breakTimeMinus' class='clickable'>-</span> <span id='breakTime'> 5 </span><span id='breakTimePlus' class='clickable'>+</span>
+      </div>
+        <div id='workBox'>
+          Work<br>
+      <span id='workTimeMinus' class='clickable'>-</span><span id='workTime'> 25 </span><span id='workTimePlus' class='clickable'>+</span>
+        </div>
+      </div>
+      <div id='timerC' class = 'clickable'>
+        <div id='timer'>25:00
+        </div>
+      </div>
+    <div id='resetBox'><button id='start' class='btn'>Start</button><button id='reset' class='btn'>Reset</button></div>
+    <h1 id='periodType'></h1>
+
+
+    </div>
+</body>
